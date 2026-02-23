@@ -128,3 +128,21 @@ A list of demo projects completed during the [TechWorld with Nana – DevOps Boo
   - b. Build Jar
   - c. Build Docker Image
   - d. Push to private DockerHub repository
+
+---
+
+### 9. Create a Jenkins Shared Library
+
+**Module:** 8 - Build Automation & CI/CD with Jenkins
+
+**Repository:** https://github.com/explicit-logic/jenkins-module-8.3
+
+**Technologies used:** Jenkins, Groovy, Docker, Git, Java, Maven
+
+**Project Description:**
+
+Create a Jenkins Shared Library to extract common build logic:
+
+- Create separate Git repository for Jenkins Shared Library project
+- Create functions in the JSL to use in the Jenkins pipeline
+- Integrate and use the JSL in Jenkins Pipeline (globally and for a specific project in Jenkinsfile)
