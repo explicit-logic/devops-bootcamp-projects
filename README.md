@@ -146,3 +146,19 @@ Create a Jenkins Shared Library to extract common build logic:
 - Create separate Git repository for Jenkins Shared Library project
 - Create functions in the JSL to use in the Jenkins pipeline
 - Integrate and use the JSL in Jenkins Pipeline (globally and for a specific project in Jenkinsfile)
+
+---
+
+### 10. Configure Webhook to trigger CI Pipeline automatically on every change
+
+**Module:** 8 - Build Automation & CI/CD with Jenkins
+
+**Repository:** https://github.com/explicit-logic/jenkins-module-8.4
+
+**Technologies used:** Jenkins, GitHub, Git, Docker, Java, Maven
+
+**Project Description:**
+
+- Install GitHub Plugin in Jenkins
+- Configure GitHub access token and connection to Jenkins in GitHub project settings
+- Configure Jenkins to trigger the CI pipeline, whenever a change is pushed to GitHub
