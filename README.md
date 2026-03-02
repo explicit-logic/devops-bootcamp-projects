@@ -162,3 +162,22 @@ Create a Jenkins Shared Library to extract common build logic:
 - Install GitHub Plugin in Jenkins
 - Configure GitHub access token and connection to Jenkins in GitHub project settings
 - Configure Jenkins to trigger the CI pipeline, whenever a change is pushed to GitHub
+
+---
+
+### 11. Dynamically Increment Application version in Jenkins Pipeline
+
+**Module:** 8 - Build Automation & CI/CD with Jenkins
+
+**Repository:** https://github.com/explicit-logic/jenkins-module-8.5
+
+**Technologies used:** Jenkins, Docker, GitHub, Git, Java, Maven
+
+**Project Description:**
+
+- Configure CI step:Increment patch version
+- Configure CI step: Build Java application and clean old artifacts
+- Configure CI step: Build Image with dynamic Docker Image Tag
+- Configure CI step: Push Image to private DockerHub repository
+- Configure CI step: Commit version update of Jenkins back to Git repository
+- Configure Jenkins pipeline to not trigger automatically on CI build commit to avoid commit loop
