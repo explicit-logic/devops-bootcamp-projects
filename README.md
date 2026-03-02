@@ -181,3 +181,19 @@ Create a Jenkins Shared Library to extract common build logic:
 - Configure CI step: Push Image to private DockerHub repository
 - Configure CI step: Commit version update of Jenkins back to Git repository
 - Configure Jenkins pipeline to not trigger automatically on CI build commit to avoid commit loop
+
+---
+
+### 12. Deploy Web Application on EC2 Instance (manually)
+
+**Module:** 9 - AWS Services
+
+**Repository:** https://github.com/explicit-logic/aws-module-9.1
+
+**Technologies used:** AWS, Docker, Linux
+
+**Project Description:**
+
+- Create and configure an EC2 Instance on AWS
+- Install Docker on remote EC2 Instance
+- Deploy Docker image from private Docker repository on EC2 Instance
