@@ -197,3 +197,20 @@ Create a Jenkins Shared Library to extract common build logic:
 - Create and configure an EC2 Instance on AWS
 - Install Docker on remote EC2 Instance
 - Deploy Docker image from private Docker repository on EC2 Instance
+
+---
+
+### 13. CD - Deploy Application from Jenkins Pipeline to EC2 Instance (automatically with docker)
+
+**Module:** 9 - AWS Services
+
+**Repository:** https://github.com/explicit-logic/aws-module-9.2
+
+**Technologies used:** AWS, Jenkins, Docker, Linux, Git, Java, Maven, Docker Hub
+
+**Project Description:**
+
+- Prepare AWS EC2 Instance for deployment (Install Docker)
+- Create ssh key credentials for EC2 server on Jenkins
+- Extend the previous CI pipeline with deploy step to ssh into the remote EC2 instance and deploy newly built image from Jenkins server
+- Configure security group on EC2 Instance to allow access to our web application
