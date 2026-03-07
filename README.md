@@ -249,3 +249,18 @@ Create a Jenkins Shared Library to extract common build logic:
 - CI step: Build and push Docker image to Docker Hub
 - CD step: Deploy new application version with Docker Compose
 - CD step: Commit the version update
+
+---
+
+### 16. Create repository on AWS and push to private Docker registry
+
+**Module:** 9 - AWS Services
+
+**Repository:** https://github.com/explicit-logic/aws-module-9.5
+
+**Technologies used:** Docker, Amazon ECR
+
+**Project Description:**
+
+- Create private Docker registry on AWS (Amazon ECR)
+- Tag and Push Docker image to this private repository
