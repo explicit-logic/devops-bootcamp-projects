@@ -264,3 +264,21 @@ Create a Jenkins Shared Library to extract common build logic:
 
 - Create private Docker registry on AWS (Amazon ECR)
 - Tag and Push Docker image to this private repository
+
+---
+
+### 17. Interacting with AWS CLI
+
+**Module:** 9 - AWS Services
+
+**Repository:** https://github.com/explicit-logic/aws-module-9.6
+
+**Technologies used:** AWS, Linux
+
+**Project Description:**
+
+- Install & configure AWS CLI to connect to our AWS account
+- Create EC2 Instance using AWS CLI with all configurations like Security Group
+- Create SSH key pair
+- Create IAM resources like User, Group, Policy using the AWS CLI
+- List and browse AWS resources using the AWS CLI
