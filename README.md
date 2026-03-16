@@ -282,3 +282,18 @@ Create a Jenkins Shared Library to extract common build logic:
 - Create SSH key pair
 - Create IAM resources like User, Group, Policy using the AWS CLI
 - List and browse AWS resources using the AWS CLI
+
+---
+
+### 18. Deploy MongoDB and Mongo Express into local K8s cluster
+
+**Module:** 10 - Container Orchestration with Kubernetes
+
+**Repository:** https://github.com/explicit-logic/kubernetes-module-10.1
+
+**Technologies used:** Kubernetes, Docker, MongoDB, Mongo Express
+
+**Project Description:**
+
+- Setup local K8s cluster with Minikube
+- Deploy MongoDB and MongoExpress with configuration and credentials extracted into ConfigMap and Secret
