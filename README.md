@@ -297,3 +297,17 @@ Create a Jenkins Shared Library to extract common build logic:
 
 - Setup local K8s cluster with Minikube
 - Deploy MongoDB and MongoExpress with configuration and credentials extracted into ConfigMap and Secret
+
+---
+
+### 19. Deploy Mosquitto message broker with ConfigMap and Secret Volume Types
+
+**Module:** 10 - Container Orchestration with Kubernetes
+
+**Repository:** https://github.com/explicit-logic/kubernetes-module-10.2
+
+**Technologies used:** Kubernetes, Docker, Mosquitto
+
+**Project Description:**
+
+- Define configuration and passwords for Mosquitto message broker with ConfigMap and Secret Volume types
