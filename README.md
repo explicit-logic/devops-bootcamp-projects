@@ -311,3 +311,21 @@ Create a Jenkins Shared Library to extract common build logic:
 **Project Description:**
 
 - Define configuration and passwords for Mosquitto message broker with ConfigMap and Secret Volume types
+
+---
+
+### 20. Install a stateful service (MongoDB) on Kubernetes using Helm
+
+**Module:** 10 - Container Orchestration with Kubernetes
+
+**Repository:** https://github.com/explicit-logic/kubernetes-module-10.3
+
+**Technologies used:** K8s, Helm, MongoDB, Mongo Express, DigitalOcean Kubernetes, Linux
+
+**Project Description:**
+
+- Create a managed K8s cluster with DigitalOcean Kubernetes
+- Deploy replicated MongoDB service in DOKS cluster using a Helm chart
+- Configure data persistence for MongoDB with DigitalOcean block storage
+- Deploy UI client Mongo Express for MongoDB
+- Deploy and configure nginx ingress to access the UI application from browser
