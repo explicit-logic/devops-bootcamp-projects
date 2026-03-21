@@ -329,3 +329,19 @@ Create a Jenkins Shared Library to extract common build logic:
 - Configure data persistence for MongoDB with DigitalOcean block storage
 - Deploy UI client Mongo Express for MongoDB
 - Deploy and configure nginx ingress to access the UI application from browser
+
+---
+
+### 21. Deploy NodeJS application in K8s cluster from private Docker registry
+
+**Module:** 10 - Container Orchestration with Kubernetes
+
+**Repository:** https://github.com/explicit-logic/kubernetes-module-10.4
+
+**Technologies used:** Kubernetes, Helm, AWS ECR, Docker
+
+**Project Description:**
+
+- Create Secret for credentials for the private Docker registry
+- Configure the Docker registry secret in application Deployment component
+- Deploy web application image from AWS ECR in K8s cluster
