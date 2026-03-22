@@ -345,3 +345,18 @@ Create a Jenkins Shared Library to extract common build logic:
 - Create Secret for credentials for the private Docker registry
 - Configure the Docker registry secret in application Deployment component
 - Deploy web application image from AWS ECR in K8s cluster
+
+---
+
+### 22. Deploy a Microservices Application on Kubernetes with Production & Security Best Practices
+
+**Module:** 10 - Container Orchestration with Kubernetes
+
+**Repository:** https://github.com/explicit-logic/kubernetes-module-10.5
+
+**Technologies used:** Kubernetes, Redis, Linux, DigitalOcean Managed Kubernetes
+
+**Project Description:**
+
+- Create Kubernetes manifests (Deployments and Services) for all microservices of an online shop application
+- Deploy the full microservices stack to a DigitalOcean managed Kubernetes cluster
