@@ -360,3 +360,17 @@ Create a Jenkins Shared Library to extract common build logic:
 
 - Create Kubernetes manifests (Deployments and Services) for all microservices of an online shop application
 - Deploy the full microservices stack to a DigitalOcean managed Kubernetes cluster
+
+---
+
+### 23. Create Helm Chart for Microservices
+
+**Module:** 10 - Container Orchestration with Kubernetes
+
+**Repository:** https://github.com/explicit-logic/kubernetes-module-10.6
+
+**Technologies used:** Kubernetes, Helm
+
+**Project Description:**
+
+- Create 1 shared Helm Chart for all microservices, to reuse common Deployment and Service configurations for the services
