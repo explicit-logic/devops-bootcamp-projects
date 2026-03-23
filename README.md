@@ -374,3 +374,18 @@ Create a Jenkins Shared Library to extract common build logic:
 **Project Description:**
 
 - Create 1 shared Helm Chart for all microservices, to reuse common Deployment and Service configurations for the services
+
+---
+
+### 24. Deploy Microservices with Helmfile
+
+**Module:** 10 - Container Orchestration with Kubernetes
+
+**Repository:** https://github.com/explicit-logic/kubernetes-module-10.7
+
+**Technologies used:** Kubernetes, Helm, Helmfile
+
+**Project Description:**
+
+- Deploy Microservices with Helm
+- Deploy Microservices with Helmfile
