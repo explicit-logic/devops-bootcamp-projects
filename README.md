@@ -389,3 +389,22 @@ Create a Jenkins Shared Library to extract common build logic:
 
 - Deploy Microservices with Helm
 - Deploy Microservices with Helmfile
+
+---
+
+### 25. Create AWS EKS cluster with a Node Group
+
+**Module:** 11 - Kubernetes on AWS - EKS
+
+**Repository:** https://github.com/explicit-logic/eks-module-11.1
+
+**Technologies used:** Kubernetes, AWS EKS
+
+**Project Description:**
+
+- Configure necessary IAM Roles
+- Create VPC with CloudFormation Template for Worker Nodes
+- Create EKS cluster (Control Plane Nodes)
+- Create Node Group for Worker Nodes and attach to EKS cluster
+- Configure Auto-Scaling of worker nodes
+- Deploy a sample application to EKS cluster
