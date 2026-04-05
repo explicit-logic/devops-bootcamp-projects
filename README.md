@@ -408,3 +408,19 @@ Create a Jenkins Shared Library to extract common build logic:
 - Create Node Group for Worker Nodes and attach to EKS cluster
 - Configure Auto-Scaling of worker nodes
 - Deploy a sample application to EKS cluster
+
+---
+
+### 26. Create EKS cluster with Fargate profile
+
+**Module:** 11 - Kubernetes on AWS - EKS
+
+**Repository:** https://github.com/explicit-logic/eks-module-11.2
+
+**Technologies used:** Kubernetes, AWS EKS, AWS Fargate
+
+**Project Description:**
+
+- Create Fargate IAM Role
+- Create Fargate Profile
+- Deploy an example application to EKS cluster using Fargate profile
