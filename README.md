@@ -424,3 +424,17 @@ Create a Jenkins Shared Library to extract common build logic:
 - Create Fargate IAM Role
 - Create Fargate Profile
 - Deploy an example application to EKS cluster using Fargate profile
+
+---
+
+### 27. Create EKS cluster with eksctl
+
+**Module:** 11 - Kubernetes on AWS - EKS
+
+**Repository:** https://github.com/explicit-logic/eks-module-11.3
+
+**Technologies used:** `Kubernetes`, `AWS EKS`, `eksctl`, `Linux`
+
+**Project Description:**
+
+- Create EKS cluster using eksctl tool that reduces the manual effort of creating an EKS cluster
