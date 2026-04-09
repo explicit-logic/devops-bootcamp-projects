@@ -455,3 +455,19 @@ Create a Jenkins Shared Library to extract common build logic:
 - Create `kubeconfig` file to connect to EKS cluster and add it on Jenkins server
 - Add AWS credentials on Jenkins for AWS account authentication
 - Extend and adjust `Jenkinsfile` of the previous CI/CD pipeline to configure connection to EKS cluster
+
+---
+
+### 29. CD - Deploy to DigitalOcean Kubernetes cluster from Jenkins Pipeline
+
+**Module:** 11 - Kubernetes on AWS - EKS
+
+**Repository:** https://github.com/explicit-logic/eks-module-11.5
+
+**Technologies used:** `Kubernetes`, `Jenkins`, `DigitalOcean Kubernetes`, `Docker`, `Linux`
+
+**Project Description:**
+
+- Create K8s cluster on DigitalOcean
+- Install `kubectl` as Jenkins Plugin
+- Adjust `Jenkinsfile` to use Plugin and deploy to DigitalOcean Kubernetes cluster
