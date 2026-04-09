@@ -438,3 +438,20 @@ Create a Jenkins Shared Library to extract common build logic:
 **Project Description:**
 
 - Create EKS cluster using eksctl tool that reduces the manual effort of creating an EKS cluster
+
+---
+
+### 28. CD - Deploy to EKS cluster from Jenkins Pipeline
+
+**Module:** 11 - Kubernetes on AWS - EKS
+
+**Repository:** https://github.com/explicit-logic/eks-module-11.4
+
+**Technologies used:** `Kubernetes`, `Jenkins`, `AWS EKS`, `Docker`, `Linux`
+
+**Project Description:**
+
+- Install `kubectl` and `aws-iam-authenticator` on a Jenkins server
+- Create `kubeconfig` file to connect to EKS cluster and add it on Jenkins server
+- Add AWS credentials on Jenkins for AWS account authentication
+- Extend and adjust `Jenkinsfile` of the previous CI/CD pipeline to configure connection to EKS cluster
