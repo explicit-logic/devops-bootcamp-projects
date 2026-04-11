@@ -471,3 +471,24 @@ Create a Jenkins Shared Library to extract common build logic:
 - Create K8s cluster on DigitalOcean
 - Install `kubectl` as Jenkins Plugin
 - Adjust `Jenkinsfile` to use Plugin and deploy to DigitalOcean Kubernetes cluster
+
+---
+
+### 30. Complete CI/CD Pipeline with EKS and private DockerHub registry
+
+**Module:** 11 - Kubernetes on AWS - EKS
+
+**Repository:** https://github.com/explicit-logic/eks-module-11.6
+
+**Technologies used:** `Kubernetes`, `Jenkins`, `AWS EKS`, `Docker Hub`, `Java, Maven`, `Linux`, `Docker`, `Git`
+
+**Project Description:**
+
+- Write K8s manifest files for Deployment and Service configuration
+- Integrate deploy step in the CI/CD pipeline to deploy newly built application image from DockerHub private registry to the EKS cluster
+- So the complete CI/CD project we build has the following configuration:
+   - a. CI step: Increment version
+   - b. CI step: Build artifact for Java Maven application
+   - c. CI step: Build and push Docker image to DockerHub
+   - d. CD step: Deploy new application version to EKS cluster
+   - e. CD step: Commit the version update
