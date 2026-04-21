@@ -529,3 +529,17 @@ Create a Jenkins Shared Library to extract common build logic:
 
 - Create TF project to automate provisioning AWS Infrastructure and its components, such as: VPC, Subnet, Route Table, Internet Gateway, EC2, Security Group
 - Configure TF script to automate deploying Docker container to EC2 instance
+
+---
+
+### 33. Modularize Project
+
+**Module:** 12 - Infrastructure as Code with Terraform
+
+**Repository:** https://github.com/explicit-logic/terraform-module-12.2
+
+**Technologies used:** `Terraform`, `AWS`, `Docker`, `Linux`, `Git`
+
+**Project Description:**
+
+- Divide Terraform resources into reusable modules
