@@ -543,3 +543,17 @@ Create a Jenkins Shared Library to extract common build logic:
 **Project Description:**
 
 - Divide Terraform resources into reusable modules
+
+---
+
+### 34. Terraform & AWS EKS
+
+**Module:** 12 - Infrastructure as Code with Terraform
+
+**Repository:** https://github.com/explicit-logic/terraform-module-12.3
+
+**Technologies used:** `Terraform`, `AWS EKS`, `Docker`, `Linux`, `Git`
+
+**Project Description:**
+
+- Automate provisioning EKS cluster with Terraform
