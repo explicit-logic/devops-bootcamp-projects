@@ -581,3 +581,17 @@ Integrate provisioning stage into complete CI/CD Pipeline to automate provisioni
   - b.CI step: Build and push Docker image to Docker Hub
   - c.CD step: Automatically provision EC2 instance using TF
   - d.CD step: Deploy new application version on the provisioned EC2 instance with Docker Compose
+
+---
+
+### 36. Configure a Shared Remote State
+
+**Module:** 12 - Infrastructure as Code with Terraform
+
+**Repository:** https://github.com/explicit-logic/terraform-module-12.4
+
+**Technologies used:** `Terraform`, `AWS S3`
+
+**Project Description:**
+
+- Configure Amazon S3 as remote storage for Terraform state
