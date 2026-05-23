@@ -595,3 +595,17 @@ Integrate provisioning stage into complete CI/CD Pipeline to automate provisioni
 **Project Description:**
 
 - Configure Amazon S3 as remote storage for Terraform state
+
+---
+
+### 37. Write Countdown Application
+
+**Module:** 13 - Programming with Python
+
+**Repository:** https://github.com/explicit-logic/python-module-13.1
+
+**Technologies used:** `Python`, `PyCharm`, `Git`
+
+**Project Description:**
+
+- Write an application that accepts a user input of a goal and a deadline (date). Print the remaining time until that deadline
