@@ -623,3 +623,17 @@ Integrate provisioning stage into complete CI/CD Pipeline to automate provisioni
 **Project Description:**
 
 - Write an application that reads a spreadsheet file and process and manipulate the spreadsheet
+
+---
+
+### 39. API Request to GitHub
+
+**Module:** 13 - Programming with Python
+
+**Repository:** https://github.com/explicit-logic/python-module-13.3
+
+**Technologies used:** `Python`, `PyCharm`, `Git`
+
+**Project Description:**
+
+- Write an application that talks to an API of an external application (GitHub) and lists all the public GitHub repositories for a specified user
