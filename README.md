@@ -609,3 +609,17 @@ Integrate provisioning stage into complete CI/CD Pipeline to automate provisioni
 **Project Description:**
 
 - Write an application that accepts a user input of a goal and a deadline (date). Print the remaining time until that deadline
+
+---
+
+### 38. Automation with Python — Working with Spreadsheets
+
+**Module:** 13 - Programming with Python
+
+**Repository:** https://github.com/explicit-logic/python-module-13.2
+
+**Technologies used:** `Python`, `PyCharm`, `Git`
+
+**Project Description:**
+
+- Write an application that reads a spreadsheet file and process and manipulate the spreadsheet
