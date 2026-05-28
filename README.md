@@ -653,3 +653,17 @@ Integrate provisioning stage into complete CI/CD Pipeline to automate provisioni
 - Create EC2 Instances with Terraform
 - Write a Python script that fetches statuses of EC2 Instances and prints to the console
 - Extend the Python script to continuously check the status of EC2 Instances in a specific interval
+
+---
+
+### 41. Automate configuring EC2 Server Instances
+
+**Module:** 14 - Automation with Python
+
+**Repository:** https://github.com/explicit-logic/python-module-14.2
+
+**Technologies used:** `Python`, `Boto3`, `AWS`
+
+**Project Description:**
+
+- Write a Python script that automates adding environment tags to all EC2 Server instances
