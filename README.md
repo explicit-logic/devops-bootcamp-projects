@@ -667,3 +667,17 @@ Integrate provisioning stage into complete CI/CD Pipeline to automate provisioni
 **Project Description:**
 
 - Write a Python script that automates adding environment tags to all EC2 Server instances
+
+---
+
+### 42. Automate displaying EKS cluster information
+
+**Module:** 14 - Automation with Python
+
+**Repository:** https://github.com/explicit-logic/python-module-14.3
+
+**Technologies used:** `Python`, `Boto3`, `AWS EKS`
+
+**Project Description:**
+
+- Write a Python script that fetches and displays EKS cluster status and information
