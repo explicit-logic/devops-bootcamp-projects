@@ -681,3 +681,19 @@ Integrate provisioning stage into complete CI/CD Pipeline to automate provisioni
 **Project Description:**
 
 - Write a Python script that fetches and displays EKS cluster status and information
+
+---
+
+### 43. Data Backup & Restore
+
+**Module:** 14 - Automation with Python
+
+**Repository:** https://github.com/explicit-logic/python-module-14.4
+
+**Technologies used:** `Python`, `Boto3`, `AWS`
+
+**Project Description:**
+
+- Write a Python script that automates creating backups for EC2 Volumes
+- Write a Python script that cleans up old EC2 Volume snapshots
+- Write a Python script that restores EC2 Volumes
