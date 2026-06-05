@@ -715,3 +715,18 @@ Integrate provisioning stage into complete CI/CD Pipeline to automate provisioni
 - Write a Python script that monitors the website by accessing it and validating the HTTP response
 - Write a Python script that sends an email notification when website is down
 - Write a Python script that automatically restarts the application & server when the application is down
+
+---
+
+### 45. Automate Node.js application Deployment
+
+**Module:** 15 - Configuration Management with Ansible
+
+**Repository:** https://github.com/explicit-logic/ansible-module-15.1
+
+**Technologies used:** `Ansible`, `Node.js`, `DigitalOcean`, `Linux`
+
+**Project Description:**
+
+- Create Server on DigitalOcean
+- Write Ansible Playbook that installs necessary technologies, creates Linux user for an application and deploys a NodeJS application with that user
