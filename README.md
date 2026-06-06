@@ -730,3 +730,18 @@ Integrate provisioning stage into complete CI/CD Pipeline to automate provisioni
 
 - Create Server on DigitalOcean
 - Write Ansible Playbook that installs necessary technologies, creates Linux user for an application and deploys a NodeJS application with that user
+
+---
+
+### 46. Automate Nexus Deployment
+
+**Module:** 15 - Configuration Management with Ansible
+
+**Repository:** https://github.com/explicit-logic/ansible-module-15.2
+
+**Technologies used:** `Ansible`, `Nexus`, `DigitalOcean`, `Java`, `Linux`
+
+**Project Description:**
+
+- Create Server on DigitalOcean
+- Write Ansible Playbook that creates Linux user for Nexus, configure server, installs and deploys Nexus and verifies that it is running successfully
