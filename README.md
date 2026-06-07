@@ -760,3 +760,18 @@ Integrate provisioning stage into complete CI/CD Pipeline to automate provisioni
 
 - Create AWS EC2 Instance with Terraform
 - Write Ansible Playbook that installs necessary technologies like Docker and Docker Compose, copies docker-compose file to the server and starts the Docker containers configured inside the dockercompose file
+
+---
+
+### 48. Ansible Integration in Terraform
+
+**Module:** 15 - Configuration Management with Ansible
+
+**Repository:** https://github.com/explicit-logic/ansible-module-15.4
+
+**Technologies used:** `Ansible`, `Terraform`, `AWS`, `Docker`, `Linux`
+
+**Project Description:**
+
+- Create Ansible Playbook for Terraform integration
+- Adjust Terraform configuration to execute Ansible Playbook automatically, so once Terraform provisions a server, it executes an Ansible playbook that configures the server
