@@ -745,3 +745,18 @@ Integrate provisioning stage into complete CI/CD Pipeline to automate provisioni
 
 - Create Server on DigitalOcean
 - Write Ansible Playbook that creates Linux user for Nexus, configure server, installs and deploys Nexus and verifies that it is running successfully
+
+---
+
+### 47. Ansible & Docker
+
+**Module:** 15 - Configuration Management with Ansible
+
+**Repository:** https://github.com/explicit-logic/ansible-module-15.3
+
+**Technologies used:** `Ansible`, `AWS`, `Docker`, `Terraform`, `Linux`
+
+**Project Description:**
+
+- Create AWS EC2 Instance with Terraform
+- Write Ansible Playbook that installs necessary technologies like Docker and Docker Compose, copies docker-compose file to the server and starts the Docker containers configured inside the dockercompose file
