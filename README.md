@@ -775,3 +775,18 @@ Integrate provisioning stage into complete CI/CD Pipeline to automate provisioni
 
 - Create Ansible Playbook for Terraform integration
 - Adjust Terraform configuration to execute Ansible Playbook automatically, so once Terraform provisions a server, it executes an Ansible playbook that configures the server
+
+---
+
+### 49. Configure Dynamic Inventory
+
+**Module:** 15 - Configuration Management with Ansible
+
+**Repository:** https://github.com/explicit-logic/ansible-module-15.5
+
+**Technologies used:** `Ansible`, `Terraform`, `AWS`
+
+**Project Description:**
+
+- Create EC2 Instance with Terraform
+- Write Ansible AWS EC2 Plugin to dynamically sets inventory of EC2 servers that Ansible should manage, instead of hard-coding server addresses in Ansible inventory file
