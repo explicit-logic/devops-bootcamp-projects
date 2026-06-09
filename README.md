@@ -790,3 +790,18 @@ Integrate provisioning stage into complete CI/CD Pipeline to automate provisioni
 
 - Create EC2 Instance with Terraform
 - Write Ansible AWS EC2 Plugin to dynamically sets inventory of EC2 servers that Ansible should manage, instead of hard-coding server addresses in Ansible inventory file
+
+---
+
+### 50. Automate Kubernetes Deployment
+
+**Module:** 15 - Configuration Management with Ansible
+
+**Repository:** https://github.com/explicit-logic/ansible-module-15.6
+
+**Technologies used:** `Ansible`, `Terraform`, `Kubernetes`, `AWS EKS`, `Python`, `Linux`
+
+**Project Description:**
+
+- Create EKS cluster with Terraform
+- Write Ansible Play to deploy application in a new K8s namespace
