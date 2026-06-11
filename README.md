@@ -829,3 +829,17 @@ Integrate provisioning stage into complete CI/CD Pipeline to automate provisioni
   - c.Copy the ssh keys for the Ansible Managed Node servers to the Ansible Control Node server
   - d.Install Ansible, Python3 and Boto3 on the Ansible Control Node server
   - e.With everything installed and copied to the remote Ansible Control Node server, execute the playbook remotely on that Control Node that will configure the 2 EC2 Managed Nodes
+
+---
+
+### 52. Structure Playbooks with Ansible Roles
+
+**Module:** 15 - Configuration Management with Ansible
+
+**Repository:** https://github.com/explicit-logic/ansible-module-15.8
+
+**Technologies used:** `Ansible`, `Docker`, `AWS`, `Linux`
+
+**Project Description:**
+
+- Break up large Ansible Playbooks into smaller manageable files using Ansible Roles
