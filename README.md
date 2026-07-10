@@ -843,3 +843,18 @@ Integrate provisioning stage into complete CI/CD Pipeline to automate provisioni
 **Project Description:**
 
 - Break up large Ansible Playbooks into smaller manageable files using Ansible Roles
+
+---
+
+### 53. Install Prometheus Stack in Kubernetes
+
+**Module:** 16 - Monitoring with Prometheus
+
+**Repository:** https://github.com/explicit-logic/prometheus-module-16.1
+
+**Technologies used:** `Prometheus`, `Kubernetes`, `Helm`, `AWS EKS`, `eksctl`, `Grafana`, `Linux`
+
+**Project Description:**
+
+- Setup EKS cluster using eksctl
+- Deploy Prometheus, Alert Manager and Grafana in cluster as part of the Prometheus Operator using Helm chart
