@@ -858,3 +858,19 @@ Integrate provisioning stage into complete CI/CD Pipeline to automate provisioni
 
 - Setup EKS cluster using eksctl
 - Deploy Prometheus, Alert Manager and Grafana in cluster as part of the Prometheus Operator using Helm chart
+
+---
+
+### 54. Configure Alerting for our Application
+
+**Module:** 16 - Monitoring with Prometheus
+
+**Repository:** https://github.com/explicit-logic/prometheus-module-16.2
+
+**Technologies used:** `Prometheus`, `Kubernetes`, `Linux`
+
+**Project Description:**
+
+- Configure our Monitoring Stack to notify us whenever CPU usage > 50% or Pod cannot start
+- Configure Alert Rules in Prometheus Server
+- Configure Alertmanager with Email Receiver
