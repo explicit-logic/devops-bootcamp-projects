@@ -874,3 +874,22 @@ Integrate provisioning stage into complete CI/CD Pipeline to automate provisioni
 - Configure our Monitoring Stack to notify us whenever CPU usage > 50% or Pod cannot start
 - Configure Alert Rules in Prometheus Server
 - Configure Alertmanager with Email Receiver
+
+---
+
+### 55. Configure Monitoring for a Third-Party Application
+
+**Module:** 16 - Monitoring with Prometheus
+
+**Repository:** https://github.com/explicit-logic/prometheus-module-16.3
+
+**Technologies used:** `Prometheus`, `Kubernetes`, `Redis`, `Helm`, `Grafana`
+
+**Project Description:**
+
+Monitor Redis by using Prometheus Exporter
+
+- Deploy Redis service in our cluster
+- Deploy Redis exporter using Helm Chart
+- Configure Alert Rules (when Redis is down or has too many connections)
+- Import Grafana Dashboard for Redis to visualize monitoring data in Grafana
