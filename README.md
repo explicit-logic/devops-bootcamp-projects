@@ -893,3 +893,19 @@ Monitor Redis by using Prometheus Exporter
 - Deploy Redis exporter using Helm Chart
 - Configure Alert Rules (when Redis is down or has too many connections)
 - Import Grafana Dashboard for Redis to visualize monitoring data in Grafana
+
+---
+
+### 56. Configure Monitoring for Own Application
+
+**Module:** 16 - Monitoring with Prometheus
+
+**Repository:** https://github.com/explicit-logic/prometheus-module-16.4
+
+**Technologies used:** `Prometheus`, `Kubernetes`, `Node.js`, `Grafana`, `Docker`, `Docker Hub`
+
+**Project Description:**
+
+- Configure our NodeJS application to collect & expose Metrics with Prometheus Client Library
+- Deploy the NodeJS application, which has a metrics endpoint configured, into Kubernetes cluster
+- Configure Prometheus to scrape this exposed metrics and visualize it in Grafana Dashboard
